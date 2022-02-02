@@ -1,0 +1,219 @@
+.landing_header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .landing_header_container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .landing_header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .landing_header_navlogo {
+    width: 120px;
+    object-fit: contain;
+    margin-left: 30px;
+  }
+  .landing_header_navside {
+    display: flex;
+    margin-right: 30px;
+  }
+  .landing_header_navside h4 {
+    border: 1px solid silver;
+    padding: 7px;
+    width: 5rem;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .landing_header_navside h4 i {
+    margin-right: 5px;
+  }
+  .landing_header_navside .landing_header_linknav {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    width: 5rem;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 7px;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+  }
+  
+  /* contents */
+  .landing_header_contend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 88%;
+    width: 100%;
+  }
+  .landing_header_contend__container {
+    margin: 0 26%;
+  }
+  .landing_header_contend_title {
+    color: #fff;
+    font-size: 3.125rem;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  .landing_header_contend__container h3 {
+    font-size: 1.625rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .landing_header_contend__container h5 {
+    padding-bottom: 20px;
+    font-size: 1.07rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  .landing_header_form form {
+    display: flex;
+  }
+  .landing_header_form form input {
+    padding: 16px;
+    outline: none;
+    border: 1px solid silver;
+    font-size: medium;
+    width: 70%;
+  }
+  .landing_header_form form button {
+    width: 10rem;
+    border: none;
+    outline: none;
+    background-color: #e50914;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+  }
+  .landing_header_form form button i {
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 960px) {
+    .landing_header_contend_title {
+      font-size: 2.5rem;
+    }
+    .landing_header_contend__container h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 960px) and (min-width: 760px) {
+    .landing_header_navlogo {
+      margin-left: 10px;
+    }
+    .landing_header_navside {
+      margin-right: 10px;
+    }
+    .landing_header_navside h4 {
+      margin-right: 10px;
+    }
+    .landing_header_contend_title {
+      font-size: 2.3rem;
+    }
+    .landing_header_contend__container h3 {
+      font-size: 1.1rem;
+    }
+    .landing_header_contend__container h5 {
+      margin-top: 0;
+      font-size: 14px;
+    }
+    .landing_header_form form input {
+      padding: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 760px) and (min-width: 500px) {
+    .landing_header_nav {
+      padding: 10px;
+    }
+    .landing_header_navlogo {
+      margin-left: 0;
+      width: 100px;
+    }
+    .landing_header_navside {
+      margin-right: 0;
+    }
+    .landing_header_navside h4 {
+      margin-right: 10px;
+      padding: 6px;
+      align-items: center;
+    }
+    .landing_header_contend__container {
+      margin: 0 80px;
+    }
+    .landing_header_contend_title {
+      font-size: 2.1rem;
+    }
+    .landing_header_contend__container h3 {
+      font-size: 1.1rem;
+    }
+    .landing_header_contend__container h5 {
+      margin-top: 0;
+      font-size: 14px;
+    }
+    .landing_header_form form input {
+      padding: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) and (min-width: 300px) {
+    .landing_header_nav {
+      padding: 10px;
+    }
+    .landing_header_navlogo {
+      margin-left: 0;
+      width: 70px;
+    }
+    .landing_header_navside {
+      margin-right: 0;
+    }
+    .landing_header_navside h4 {
+      margin-right: 10px;
+      padding: 6px;
+      align-items: center;
+      font-size: 12px;
+    }
+    .landing_header_linknav {
+      font-size: 12px;
+    }
+    .landing_header_contend__container {
+      margin: 0 40px;
+    }
+    .landing_header_contend_title {
+      font-size: 2.1rem;
+    }
+    .landing_header_contend__container h3 {
+      font-size: 1.1rem;
+    }
+    .landing_header_contend__container h5 {
+      margin-top: 0;
+      font-size: 14px;
+    }
+    .landing_header_form form input {
+      padding: 10px;
+    }
+    .landing_header_form form button {
+      font-size: 12px;
+      width: 45%;
+    }
+  }
+  

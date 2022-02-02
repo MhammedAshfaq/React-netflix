@@ -1,0 +1,160 @@
+.qna {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 125vh;
+    color: #fff;
+    background-color: black;
+  }
+  .qna_container {
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+    align-items: center;
+  }
+  .qna_content h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  .qna_section {
+    margin: 40px 0;
+  }
+  
+  .qna_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 15px;
+    margin-bottom: 4px;
+    width: 100%;
+    border: 0;
+    background-color: #303030;
+  }
+  .qna_list h2 {
+    font-weight: 500;
+  }
+  .qna_list i {
+    cursor: pointer;
+  }
+  
+  /* qna signin section */
+  .qna_signin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .qna_signin_container p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .qna_signin_input form {
+    display: flex;
+  }
+  .qna_signin_input form input {
+    width: 70%;
+    padding: 16px;
+    outline: none;
+    border: 1px solid silver;
+    font-size: medium;
+  }
+  .qna_signin_container button {
+    width: 120px;
+    border: none;
+    outline: none;
+    background-color: #e50914;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 960px) {
+    .qna_content h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 960px) and (min-width: 760px) {
+    .qna_content h1 {
+      font-size: 2.7rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+    .qna_list {
+      width: 100%;
+    }
+    .qna_list h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+  }
+  
+  @media screen and (max-width: 760px) and (min-width: 500px) {
+    .qna_content h1 {
+      font-size: 2.2rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+    .qna_list {
+      width: 90%;
+    }
+    .qna_list h2 {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    .qna_signin_container p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .qna_signin_input form input {
+      padding: 13px;
+    }
+    .qna_signin_container button {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+  
+  @media screen and (max-width: 500px) and (min-width: 300px) {
+    .qna {
+      height: 110vh;
+    }
+    .qna_container {
+      padding: 40px 45px;
+    }
+    .qna_content h1 {
+      font-size: 1.5rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+    .qna_list {
+      width: 90%;
+    }
+    .qna_list h2 {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .qna_signin_container p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    .qna_signin_input form input {
+      padding: 10px;
+    }
+    .qna_signin_container button {
+      font-size: 0.8rem;
+      width: 90px;
+      font-weight: 500;
+      border: 1px solid #e50914;
+    }
+  }
+  
+  
+  

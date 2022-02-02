@@ -1,0 +1,371 @@
+.register {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .register_container {
+    background-image: url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 141.7vh;
+  }
+  .register_header img {
+    height: 45px;
+    width: 167px;
+    padding: 20px 50px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .register_form_container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
+    background-color: rgba(4, 4, 4, 0.925);
+    border-radius: 3px;
+    height: 600px;
+  }
+  .register_form {
+    margin: 50px 70px;
+  }
+  .signIn_heading {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .register_form form input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+    background: #333;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .register_form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #e50914;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  .register_help {
+    color: rgb(158, 155, 155);
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .check_box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .check_box p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .register_help a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(158, 155, 155);
+    font-weight: 500;
+  }
+  .register_help a:hover {
+    text-decoration: underline;
+  }
+  .register_facebook {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .register_facebook img {
+    width: 30px;
+  }
+  .register_facebook p {
+    color: rgb(158, 155, 155);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .register_additinal_helper p {
+    color: rgb(158, 155, 155);
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .register_additinal_helper p a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .register_additinal_helper p a:hover {
+    text-decoration: underline;
+  }
+  .register_additinal_helper span {
+    color: rgb(158, 155, 155);
+  }
+  .register_additinal_helper span {
+    font-size: 12px;
+  }
+  .register_additinal_helper span a {
+    text-decoration: none;
+  }
+  .register_additinal_helper span a:hover {
+    text-decoration: underline;
+  }
+  
+  /* register Footer Section degin */
+  
+  .register_footer {
+    width: 100%;
+    height: 217px;
+    background-color: rgba(4, 4, 4, 0.836);
+    position: absolute;
+    top: 110%;
+    color: rgb(117, 116, 116);
+  }
+  .register_footer_container {
+    margin: 10px 200px 0 150px;
+  }
+  .register_footer_heading p {
+    padding: 20px 0;
+  }
+  .register_footer_heading span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .register_footer_link {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .register_footer_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .register_footer_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0rem;
+    margin-bottom: 20px;
+  }
+  .register_footer_language {
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    padding: 7px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+  }
+  .register_footer_language i {
+    margin-right: 10px;
+  }
+  
+  
+  @media screen and (max-width: 1200px) and (min-width: 960px) {
+    .register_header img {
+      width: 137px;
+      padding: 20px 30px;
+    }
+    .register_form_container {
+      width: 45%;
+      height: 600px;
+    }
+    .register_form {
+      margin: 50px 60px;
+    }
+    .signIn_heading {
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 1.9rem;
+    }
+    .register_additinal_helper p {
+      font-size: 14px;
+    }
+    .register_additinal_helper p a {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 960px) and (min-width: 760px) {
+    .register_header img {
+      width: 117px;
+      padding: 20px 30px;
+    }
+    .register_form_container {
+      width: 55%;
+      height: 550px;
+    }
+    .register_form {
+      margin: 50px 50px;
+    }
+    .signIn_heading {
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 1.9rem;
+    }
+    .register_form form input {
+      padding: 14px 20px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .register_form button {
+      padding: 14px 20px;
+      font-size: 14px;
+    }
+    .register_help {
+      margin: 0 0 20px 0;
+    }
+    .register_additinal_helper p {
+      font-size: 13px;
+    }
+    .register_additinal_helper p a {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 760px) and (min-width: 500px) {
+    .register_container {
+      width: 100%;
+      height: 140vh;
+    }
+    .register_header img {
+      width: 100px;
+      padding: 20px 20px;
+    }
+    .register_form_container {
+      width: 70%;
+      height: 550px;
+    }
+    .register_form {
+      margin: 50px 50px;
+    }
+    .signIn_heading {
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+    .register_form form input {
+      padding: 11px 20px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .register_form button {
+      padding: 11px 20px;
+      font-size: 13px;
+    }
+    .register_help {
+      margin: 0 0 20px 0;
+    }
+    .register_additinal_helper p {
+      font-size: 13px;
+    }
+    .register_additinal_helper p a {
+      font-size: 13px;
+    }
+  
+    /* sign up Footer */
+    .register_footer {
+      width: 100%;
+      height: 205px;
+    }
+  
+    .register_footer_container {
+      margin: 10px 50px 0 50px;
+    }
+    .register_footer_heading p {
+      padding: 20px 0;
+      font-size: 16px;
+    }
+    .register_footer_link {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .register_footer_list {
+      margin-bottom: 10px;
+    }
+    .register_footer_language {
+      font-size: 12px;
+      padding: 7px;
+      width: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) and (min-width: 300px) {
+    .register_container {
+      width: 100%;
+      height: 141vh;
+    }
+    .register_form_container {
+      top: 50%;
+    }
+    .register_header img {
+      width: 90px;
+      padding: 10px 10px;
+    }
+    .register_form_container {
+      width: 90%;
+      height: 500px;
+    }
+    .register_form {
+      margin: 20px 20px;
+    }
+    .signIn_heading {
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+    }
+    .register_form form input {
+      padding: 10px 20px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .register_form button {
+      padding: 10px 20px;
+      font-size: 13px;
+    }
+    .register_help {
+      margin: 0 0 30px 0;
+    }
+    .register_additinal_helper p {
+      font-size: 12.5px;
+    }
+    .register_additinal_helper p a {
+      font-size: 12.5px;
+    }
+    .register_additinal_helper span{
+      font-size: 10px;
+    }
+  
+    /* sign up Footer */
+    .register_footer {
+      width: 100%;
+      height: 210px;
+    }
+  
+    .register_footer_container {
+      margin: 10px 30px 0 30px;
+    }
+    .register_footer_heading p {
+      padding: 15px 0;
+      font-size: 14px;
+    }
+    .register_footer_link {
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
+    .register_footer_list {
+      grid-template-columns: repeat(2, 1fr);
+      margin-bottom: 20px;
+    }
+    .register_footer_language {
+      font-size: 12px;
+      padding: 7px;
+      width: 70px;
+    }
+  }
+  

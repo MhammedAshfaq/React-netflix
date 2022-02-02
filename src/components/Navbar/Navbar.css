@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+    z-index: 1;
+  }
+  .scroll_black {
+    background-color: #111;
+    height: 30px;
+    transition: all 0.6s;
+  }
+  .navbar_logo {
+    position: fixed;
+    left: 10px;
+    width: 80px;
+    object-fit: contain;
+  }
+  .navbar_avtar {
+    position: fixed;
+    right: 10px;
+    width: 30px;
+    object-fit: contain;
+  }
+  
